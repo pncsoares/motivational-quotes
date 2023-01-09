@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
     <>
-      <footer className="footer footer-center p-3 sm:p-5 bg-primary text-primary-content shadow-3xl">
+      <footer className="footer footer-center sticky bottom-0 p-2 sm:p-5 flex flex-col gap-4">
         <div>
-          <p className="font-bold text-base sm:text-lg">Made with ♥ by Pedro Soares.</p>
+          <p className="font-bold text-base sm:text-lg">Made by Pedro Soares.</p>
           <p>Motivating people since 1992</p>
           <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
         </div>
