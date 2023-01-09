@@ -38,7 +38,7 @@ export default function Quote() {
 
   return (
     <>
-      <div className="hero flex-1">
+      <div className="hero">
         <div className="hero-content text-center">
           <div className="flex flex-col gap-5 sm:gap-10 max-w-lg">
             <div
