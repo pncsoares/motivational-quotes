@@ -1,3 +1,7 @@
 export default function Loading() {
-  return <></>;
+  return (
+    <>
+      <button className="btn btn-square btn-ghost btn-lg loading"></button>
+    </>
+  );
 }

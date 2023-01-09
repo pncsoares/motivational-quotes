@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
     <>
-      <footer className="footer footer-center p-5 bg-primary text-primary-content">
+      <footer className="footer footer-center p-3 sm:p-5 bg-primary text-primary-content">
         <div>
-          <p className="font-bold text-lg">Made with ♥ by Pedro Soares.</p>
+          <p className="font-bold text-base sm:text-lg">Made with ♥ by Pedro Soares.</p>
           <p>Motivating people since 1992</p>
           <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
         </div>
@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="grid grid-flow-col gap-4">
             <a
               href="https://github.com/pncsoares"
-              className="duration-200 hover:opacity-40 cursor-pointer"
+              className="duration-200 hover:scale-125 cursor-pointer"
               target="_blank"
               rel="noopener noreferrer"
             >

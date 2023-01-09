@@ -7,16 +7,30 @@ export default function LightDarkSwitcher() {
 
   const { setItem, getItem } = useLocalStorage();
 
-  const lightTheme = import.meta.env.VITE_LIGHT_THEME;
-  const darkTheme = import.meta.env.VITE_DARK_THEME;
+  const lightTheme: string = import.meta.env.VITE_LIGHT_THEME;
+  const darkTheme: string = import.meta.env.VITE_DARK_THEME;
 
   useEffect(() => {
-    const selectedTheme = getItem('theme');
+    setTheme();
+  }, []);
+
+  const setTheme = () => {
+    let selectedTheme = lightTheme;
+    const savedTheme = getItem(LOCAL_STORAGE_THEME_NAME);
+
+    if (savedTheme) {
+      selectedTheme = savedTheme;
+    } else {
+      setItem(LOCAL_STORAGE_THEME_NAME, selectedTheme);
+    }
 
     if (selectedTheme === lightTheme) {
       setChecked(true);
     }
-  }, []);
+
+    const htmlTag = document.documentElement;
+    htmlTag.setAttribute('data-theme', selectedTheme);
+  };
 
   const handleChange = (e: any) => {
     const htmlTag = document.documentElement;

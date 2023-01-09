@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { IQuote } from '../../interfaces/Quote';
 import { getQuotes } from '../../services/quote.services';
+import Loading from '../Loading';
 
 export default function Quote() {
   const [loading, setLoading] = useState<boolean>(false);
@@ -44,7 +45,7 @@ export default function Quote() {
               className="text-xl sm:text-2xl"
               onClick={showRandomQuote}
             >
-              {loading && <button className="btn btn-square btn-ghost btn-lg loading"></button>}
+              {loading && <Loading />}
               {!loading && error && <h1>{error}</h1>}
               {!loading && !error && <h1>{quote?.text}</h1>}
             </div>
