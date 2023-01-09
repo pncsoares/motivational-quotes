@@ -25,7 +25,7 @@ npm install
 npm run dev
 ```
 
-Navigate to `http://localhost:4200`
+Navigate to `http://localhost:5173`
 
 > **Note**
 >
