@@ -38,20 +38,16 @@ export default function Quote() {
 
   return (
     <>
-      <div className="hero">
-        <div className="hero-content text-center">
-          <div className="flex flex-col gap-5 sm:gap-10 max-w-lg">
-            <div
-              className="text-xl sm:text-2xl"
-              onClick={showRandomQuote}
-            >
-              {loading && <Loading />}
-              {!loading && error && <h1>{error}</h1>}
-              {!loading && !error && <h1>{quote?.text}</h1>}
-            </div>
-            <p className="text-sm sm:text-md">{quote?.author}</p>
-          </div>
+      <div className="flex flex-col flex-1 gap-5 sm:gap-10 p-5 sm:p-10 justify-center align-center content-center text-center">
+        <div
+          className="text-xl sm:text-2xl"
+          onClick={showRandomQuote}
+        >
+          {loading && <Loading />}
+          {!loading && error && <h1>{error}</h1>}
+          {!loading && !error && <h1>{quote?.text}</h1>}
         </div>
+        <p className="text-sm sm:text-md">{quote?.author}</p>
       </div>
     </>
   );
