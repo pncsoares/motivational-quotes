@@ -1,6 +1,6 @@
+import { IQuote } from '@/interfaces/Quote';
+import { getQuotes } from '@/services/quote.services';
 import { useEffect, useState } from 'react';
-import { IQuote } from '../../interfaces/Quote';
-import { getQuotes } from '../../services/quote.services';
 import Loading from '../Loading';
 
 export default function Quote() {

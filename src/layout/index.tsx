@@ -1,6 +1,6 @@
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import Quote from '../components/Quote';
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
+import Quote from '@/components/Quote';
 
 export default function Layout() {
   return (

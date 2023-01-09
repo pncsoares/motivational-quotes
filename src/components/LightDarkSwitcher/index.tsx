@@ -1,6 +1,6 @@
+import { LOCAL_STORAGE_THEME_NAME } from '@/constants/local-storage.constants';
+import { useLocalStorage } from '@/hooks/useLocalStorage';
 import { useEffect, useState } from 'react';
-import { LOCAL_STORAGE_THEME_NAME } from '../../constants/local-storage.constants';
-import { useLocalStorage } from '../../hooks/useLocalStorage';
 
 export default function LightDarkSwitcher() {
   const [checked, setChecked] = useState<boolean>(false);

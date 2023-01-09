@@ -1,5 +1,5 @@
+import { IQuote } from '@/interfaces/Quote';
 import axios from 'axios';
-import { IQuote } from '../interfaces/Quote';
 
 export const getQuotes = async (): Promise<IQuote[]> => {
   let quotes: IQuote[] = [];
