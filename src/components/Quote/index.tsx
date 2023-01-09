@@ -37,19 +37,18 @@ export default function Quote() {
 
   return (
     <>
-      <div className="hero flex-1 content-start pt-0 sm:pt-36 bg-base-200">
+      <div className="hero flex-1 bg-base-200">
         <div className="hero-content text-center">
-          <div className="max-w-lg">
-            {loading && <button className="btn btn-square btn-ghost btn-lg loading"></button>}
-            {!loading && error && <h1 className="text-xl sm:text-2xl">{error}</h1>}
-            {!loading && !error && <h1 className="text-xl sm:text-2xl">{quote?.text}</h1>}
-            <p className="py-5">{quote?.author}</p>
-            <button
-              className="btn btn-primary"
+          <div className="flex flex-col gap-5 sm:gap-10 max-w-lg">
+            <div
+              className="text-xl sm:text-2xl"
               onClick={showRandomQuote}
             >
-              Get another quote
-            </button>
+              {loading && <button className="btn btn-square btn-ghost btn-lg loading"></button>}
+              {!loading && error && <h1>{error}</h1>}
+              {!loading && !error && <h1>{quote?.text}</h1>}
+            </div>
+            <p className="text-sm sm:text-md">{quote?.author}</p>
           </div>
         </div>
       </div>

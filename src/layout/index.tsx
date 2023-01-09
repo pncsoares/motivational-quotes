@@ -6,10 +6,10 @@ export default function Layout() {
   return (
     <>
       <div className="flex flex-col min-h-screen select-none">
-        <div className="">
+        <div className="sticky top-0">
           <Header />
         </div>
-        <div className="flex flex-col flex-1">
+        <div className="flex flex-1">
           <Quote />
         </div>
         <div className="sticky bottom-0">
