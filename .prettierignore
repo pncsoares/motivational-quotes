@@ -5,9 +5,6 @@ coverage
 # Ignore Markdown files:
 *.md
 
-# Angular
-.angular
-
 # Build
 build
 dist
