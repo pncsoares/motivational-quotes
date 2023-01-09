@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <footer className="footer footer-center p-3 sm:p-5 bg-primary text-primary-content">
+      <footer className="footer footer-center p-3 sm:p-5 bg-primary text-primary-content shadow-3xl">
         <div>
           <p className="font-bold text-base sm:text-lg">Made with ♥ by Pedro Soares.</p>
           <p>Motivating people since 1992</p>
