@@ -38,16 +38,32 @@ export default function Quote() {
 
   return (
     <>
-      <div className="flex flex-col flex-1 gap-5 sm:gap-10 p-5 sm:p-10 justify-center align-center content-center text-center">
+      <div className="flex flex-col flex-1 gap-8 sm:gap-12 p-5 sm:p-10 justify-center align-center content-center text-center max-w-4xl mx-auto">
         <div
-          className="text-xl sm:text-2xl"
+          className="cursor-pointer transition-transform hover:scale-105 active:scale-95"
           onClick={showRandomQuote}
         >
           {loading && <Loading />}
-          {!loading && error && <h1>{error}</h1>}
-          {!loading && !error && <h1>{quote?.quote}</h1>}
+          {!loading && error && <h1 className="text-lg sm:text-xl text-error">{error}</h1>}
+          {!loading && !error && (
+            <blockquote className="relative">
+              <div className="text-6xl sm:text-8xl text-primary/20 absolute -top-4 -left-2 sm:-left-4 leading-none font-serif">
+                "
+              </div>
+              <h1 className="text-xl sm:text-3xl md:text-4xl font-light leading-relaxed tracking-wide px-8 sm:px-12">
+                "{quote?.quote}"
+              </h1>
+              <div className="text-6xl sm:text-8xl text-primary/20 absolute -bottom-8 -right-2 sm:-right-4 leading-none font-serif">
+                "
+              </div>
+            </blockquote>
+          )}
         </div>
-        {quote?.author && <p className="text-sm sm:text-md">{quote?.author}</p>}
+        {quote?.author && (
+          <cite className="text-base sm:text-lg md:text-xl text-secondary font-medium not-italic">
+            {quote.author}
+          </cite>
+        )}
       </div>
     </>
   );
