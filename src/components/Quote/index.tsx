@@ -20,10 +20,10 @@ export default function Quote() {
   async function fetchData() {
     setLoading(true);
 
-    const fetchedQuotes = await getQuotes();
+    const retrievedQuotes = await getQuotes();
 
-    if (fetchedQuotes && fetchedQuotes.length > 0) {
-      setQuotes(fetchedQuotes);
+    if (retrievedQuotes && retrievedQuotes.length > 0) {
+      setQuotes(retrievedQuotes);
     } else {
       setError('No quotes for today. Please return tomorrow.');
     }
@@ -45,9 +45,9 @@ export default function Quote() {
         >
           {loading && <Loading />}
           {!loading && error && <h1>{error}</h1>}
-          {!loading && !error && <h1>{quote?.text}</h1>}
+          {!loading && !error && <h1>{quote?.quote}</h1>}
         </div>
-        <p className="text-sm sm:text-md">{quote?.author}</p>
+        {quote?.author && <p className="text-sm sm:text-md">{quote?.author}</p>}
       </div>
     </>
   );

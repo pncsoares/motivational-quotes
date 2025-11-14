@@ -1,4 +1,4 @@
 export interface IQuote {
-  text: string;
-  author: string;
+  quote: string;
+  author: string | null;
 }
