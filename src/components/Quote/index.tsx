@@ -50,7 +50,7 @@ export default function Quote() {
               <div className="text-8xl text-primary/20 absolute -top-4 -left-2 sm:-left-4 leading-none font-serif">
                 "
               </div>
-              <h1 className="text-xl sm:text-3xl md:text-4xl font-light leading-relaxed tracking-wide px-8 sm:px-12">
+              <h1 className="text-4xl font-light leading-relaxed tracking-wide px-8 sm:px-12">
                 "{quote?.quote}"
               </h1>
               <div className="text-8xl text-primary/20 absolute -bottom-8 -right-2 sm:-right-4 leading-none font-serif">
