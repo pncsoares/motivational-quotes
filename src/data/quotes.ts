@@ -7351,4 +7351,44 @@ export const QUOTES = [
     text: 'What lies behind you and what lies in front of you, pales in comparison to what lies inside of you.',
     author: 'Ralph Waldo Emerson',
   },
+  {
+    text: 'E se tudo der certo?',
+    author: 'Unknown',
+  },
+  {
+    text: 'O que o amor faria?',
+    author: 'Unknown',
+  },
+  {
+    text: 'Nada é por acaso.',
+    author: 'Unknown',
+  },
+  {
+    text: 'Nós criamos as nossas montanhas.',
+    author: 'Unknown',
+  },
+  {
+    text: 'Eu não preciso de ser mais nada além do que eu sou.',
+    author: 'Unknown',
+  },
+  {
+    text: 'Ser autêntico é a minha maior força.',
+    author: 'Unknown',
+  },
+  {
+    text: 'O amor é firme e impõe limites.',
+    author: 'Unknown',
+  },
+  {
+    text: 'Saber dizer não com amor e firmeza é uma sabedoria que se instrui com a prática.',
+    author: 'Unknown',
+  },
+  {
+    text: 'Somos muito maiores do que aquilo que vivemos.',
+    author: 'Unknown',
+  },
+  {
+    text: 'Muda só uma que está ali para:',
+    author: 'Unknown',
+  },
 ] as const;
