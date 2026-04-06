@@ -7352,43 +7352,43 @@ export const QUOTES = [
     author: 'Ralph Waldo Emerson',
   },
   {
-    text: 'E se tudo der certo?',
+    text: 'What if everything goes right?',
     author: 'Unknown',
   },
   {
-    text: 'O que o amor faria?',
+    text: 'What would love do?',
     author: 'Unknown',
   },
   {
-    text: 'Nada é por acaso.',
+    text: 'Nothing happens by chance.',
     author: 'Unknown',
   },
   {
-    text: 'Nós criamos as nossas montanhas.',
+    text: 'We create our own mountains.',
     author: 'Unknown',
   },
   {
-    text: 'Eu não preciso de ser mais nada além do que eu sou.',
+    text: "I don't need to be anything more than I am.",
     author: 'Unknown',
   },
   {
-    text: 'Ser autêntico é a minha maior força.',
+    text: 'Being authentic is my greatest strength.',
     author: 'Unknown',
   },
   {
-    text: 'O amor é firme e impõe limites.',
+    text: 'Love is firm and sets boundaries.',
     author: 'Unknown',
   },
   {
-    text: 'Saber dizer não com amor e firmeza é uma sabedoria que se instrui com a prática.',
+    text: 'Knowing how to say no with love and firmness is wisdom that comes with practice.',
     author: 'Unknown',
   },
   {
-    text: 'Somos muito maiores do que aquilo que vivemos.',
+    text: 'We are much greater than what we go through.',
     author: 'Unknown',
   },
   {
-    text: 'Muda só uma que está ali para:',
+    text: 'Change just the one that is there for:',
     author: 'Unknown',
   },
 ] as const;
