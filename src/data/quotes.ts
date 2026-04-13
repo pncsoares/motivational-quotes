@@ -7391,4 +7391,32 @@ export const QUOTES = [
     text: 'Change just the one that is there for:',
     author: 'Unknown',
   },
+  {
+    text: 'We should give our best and then allow life to do the rest.',
+    author: 'Unknown',
+  },
+  {
+    text: 'Discipline is not always self-love.',
+    author: 'Unknown',
+  },
+  {
+    text: 'Some versions of you are born the moment you stop forcing things.',
+    author: 'Unknown',
+  },
+  {
+    text: 'Mental strength is not emotional detachment.',
+    author: 'Unknown',
+  },
+  {
+    text: 'The life you want begins when you stop abandoning yourself.',
+    author: 'Unknown',
+  },
+  {
+    text: 'Everyone wants a life of luck, few want the path.',
+    author: 'Unknown',
+  },
+  {
+    text: "If I don't go inside, I stay outside.",
+    author: 'Unknown',
+  },
 ] as const;
