@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <footer className="text-center flex flex-col items-center justify-center align-center w-full text-muted gap-4 py-5 sm:py-10 font-[ibm-plex-sans] font-light text-sm">
       <div className="flex flex-col">
-        <p>Made by two souls</p>
         <p>Motivating souls since the 90's</p>
         <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
       </div>

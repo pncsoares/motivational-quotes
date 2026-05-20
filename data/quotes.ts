@@ -5958,7 +5958,7 @@ export const quotes: QuoteType[] = [
     author: "Thomas Carlyle",
   },
   {
-    text: "If you do what you've always done, you'll get what youve always gotten.",
+    text: "If you do what you've always done, you'll get what you've always gotten.",
     author: "Tony Robbins",
   },
   {
