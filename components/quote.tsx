@@ -7,11 +7,11 @@ interface QuoteProps {
 const Quote = ({ quote }: QuoteProps) => {
   return (
     <div className="flex flex-col items-center justify-center align-center w-full space-y-10">
-      <span className="font-[georgia] text-4xl font-light text-center">
+      <span className="text-2xl md:text-3xl font-light text-center">
         "{quote.text}"
       </span>
       {quote.author && (
-        <span className="font-[ibm-plex-sans] text-xl font-light italic text-center">
+        <span className="text-lg md:text-xl font-light italic text-center">
           {quote.author}
         </span>
       )}

@@ -7,7 +7,12 @@ interface ProjectAuthorProps {
 
 const ProjectAuthor = ({ href, name }: ProjectAuthorProps) => {
   return (
-    <Link href={href} target="_blank" rel="noopener noreferrer">
+    <Link
+      className="text-muted hover:text-foreground"
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       {name}
     </Link>
   );
