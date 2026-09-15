@@ -7421,4 +7421,48 @@ export const quotes: QuoteType[] = [
     text: "If I don't go inside, I stay outside.",
     author: null,
   },
+  {
+    text: "É o caos que engendra as estrelas dançantes.",
+    author: "Por Friedrich Nietzsche",
+  },
+  {
+    text: "O sucesso reside na mestria consistente aplicada ao básico.",
+    author: "Por Robin Sharma",
+  },
+  {
+    text: "Pouco me importa que tenham roubado a minha ideia. O que me incomoda é o facto de não terem ideias próprias.",
+    author: "Por Nikola Tesla",
+  },
+  {
+    text: "O primeiro rascunho seja o que for é uma merda.",
+    author: "Por Ernest Hemingway",
+  },
+  {
+    text: "Os grandes mestres comportam-se sempre como principiantes.",
+    author: "Por Robin Sharma",
+  },
+  {
+    text: "Ao longo de toda a minha vida, nunca conheci pessoas sábias que não passassem a vida a ler.",
+    author: "Por Charlie Munger",
+  },
+  {
+    text: "Não deixamos de brincar porque envelhecemos, mas envelhecemos porque deixamos de brincar.",
+    author: "Por Bernard Shaw",
+  },
+  {
+    text: "O sucesso decorre na privacidade da alma.",
+    author: "Por Rick Rubin",
+  },
+  {
+    text: "A vida é uma aventura ousada ou não é nada.",
+    author: "Por Rick Rubin",
+  },
+  {
+    text: "Aonde quer que vamos, levamo-nos a nós mesmos. Provérbio Zen",
+    author: null,
+  },
+  {
+    text: "O livre-arbítrio não nos foi dado para nosso conforto. Foi-nos dado para a nossa evolução.",
+    author: "Por Patrícia Domingos",
+  },
 ] as const;
